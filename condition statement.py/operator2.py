@@ -1,9 +1,15 @@
-# Operators
-# 1.Arithmetic operators like: +,-,*,%, **,//
-# %= modulus : to check the reminder value 
-# ** exponential
-# // float division
-'''print(2%5)
+'''# Operators
+ 1.Arithmetic operators like: +,-,*,%, **,//
+   %= modulus : to check the reminder value 
+** exponential 2**3=8
+// float division it removes the flating digits like 5/6=0.888 if 5//6=0 removes the floating digit
+
+        
+
+        
+   
+
+print(2%5)
 print(2**3)
 print(4**4) 
 
@@ -23,10 +29,23 @@ print(a!=b)
 print(a>b)
 print(a<b)
 '''
-# logical operator: mainly use in if else condition
-# and : return true if both statement is true
-# or : return true if one of the statement is true
-# not : reverse the result, return false if the result occurs true
+'''logical operator: mainly use in if else condition
+AND(&& logical AND): return true if both statement is true
+that means it return true only if all conditions are true
+      int age = 20
+      bool isCitizen = true
+       if (age >= 18 && isCitizen == true): 
+        print("you can vote!)
+        
+# OR( || logical OR:) return true if one of the statement is true
+it returns only one condition is true 
+    if (5>3) or (5<3):
+        print("true")
+
+# NOT(! Logical NOt :) : reverse the result, return false if the result occurs true
+    not(5>10)  ://true 
+'''
+
 '''a = 6
 b = 7
 
@@ -60,4 +79,3 @@ print("D" in name)
 
     # Bit wise operator: always in binary number system
 # &, |, ^, ~, <<, >>
-    

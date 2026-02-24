@@ -90,7 +90,7 @@ check_voter(name,age)'''
 
 # 
 
-'''users=[
+'''''users=[
     {'name':'Deepak','gender':"male","status":'true'},
     {'name':'ram','gender':"male","status":'false'},
     {'name':'gita','gender':"female","status":'true'},
@@ -128,5 +128,3 @@ print(f'total active_male:{total_active_male}')
 print(f'total inactivemale:{total_inactive_male}')
 print(f'total activefemale:{total_active_female}')
 print(f'total inactivefemale:{total_inactive_female}')'''
-
-
