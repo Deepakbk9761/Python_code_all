@@ -6,7 +6,7 @@ we cannot access a local variable from outside its function.
 Local variable'''
 def greet():
     name="Deepak"
-    print("Namaste", name) #Access global varible inside the function
+    print("Namaste", name) #Access local varible inside the function
 greet()
 
 '''2. Global scope
