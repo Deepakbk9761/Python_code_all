@@ -6,7 +6,7 @@
 
 # syntax:
 
-'''def function_name(parameter): function defn
+def function_name(parameter): function defn
     # code
     return
     function_name(argument) function call
@@ -78,6 +78,7 @@ calculate_area(x,y)
 
 #WAP to define a function check_voter that takes name and age as parameters.
 # If the age is 18 or older, print "[Name] is eligible to vote." Otherwise, print "[Name] is not eligible."
+
 def check_voter(name,age):
     age=18
     if age>=18:
@@ -86,11 +87,10 @@ def check_voter(name,age):
         print(name,"is not eligible to vote")
 name=input("Enter your name:")
 age=int(input("Enter your age:")) 
-check_voter(name,age)'''
+check_voter(name,age)
 
-# 
 
-'''''users=[
+users=[
     {'name':'Deepak','gender':"male","status":'true'},
     {'name':'ram','gender':"male","status":'false'},
     {'name':'gita','gender':"female","status":'true'},
@@ -127,4 +127,4 @@ print(f'total female:{total_female}')
 print(f'total active_male:{total_active_male}')
 print(f'total inactivemale:{total_inactive_male}')
 print(f'total activefemale:{total_active_female}')
-print(f'total inactivefemale:{total_inactive_female}')'''
+print(f'total inactivefemale:{total_inactive_female}')

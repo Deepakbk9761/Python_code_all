@@ -1,10 +1,10 @@
 # keyword argument is also called named argument or dictionary argument :it maximal use with dictionary
 # **kwargs 
 # suntax:
-# def function_name(*args,**kwargs):
-#     print(args)
-#     print(kwargs)
-# function_name(25,35,65)   
+def function_name(*args,**kwargs):
+    print(args)
+    print(kwargs)
+function_name(25,35,65)   
 
 # eg:
 def users(*args,**kwargs):

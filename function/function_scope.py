@@ -4,34 +4,34 @@ A varible created inside the function.
 It only exists while the function is running
 we cannot access a local variable from outside its function.
 Local variable'''
-# def greet():
-#     name="Deepak"
-#     print("Namaste", name) #Access global varible inside the function
-# greet()
+def greet():
+    name="Deepak"
+    print("Namaste", name) #Access local varible inside the function
+greet()
 
 '''2. Global scope
  A variable created outside the function'''
-# name="Deepak"#global variable
-# def greet():
-#     print("Namaste", name) #Access global varible inside the function
-# greet()
+name="Deepak"#global variable
+def greet():
+    print("Namaste", name) #Access global varible inside the function
+greet()
 
 # eg.exceptional case:
-# a=6
-# def num():
-#     global a # we define global varible here
-#     a=a+5
-#     print(a)
+a=6
+def num():
+    global a # we define global varible here
+    a=a+5
+    print(a)
 
 
-# num()
-# print(a)
-# a=6
-# def add():
-#     b=a+6
-#     print("the value is:",b)
-# add()
-# print(a)
+num()
+print(a)
+a=6
+def add():
+    b=a+6
+    print("the value is:",b)
+add()
+print(a)
 
 
 #make a calculator which calculate the simple interested using function in python
