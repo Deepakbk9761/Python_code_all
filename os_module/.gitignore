@@ -1,0 +1,9 @@
+import tkinter as tk
+app=tk.Tk()
+app.title("GUI")
+app.geometry("300x300")
+result=tk.Entry()
+result.grid(padx=6,pady=6,row=5, column=5,columnspan=5)
+zero=tk.Button(app,text="0",padx=9,pady=9)
+zero.grid(row=6,column=0,sticky="nsew")
+app.mainloop()
