@@ -7,6 +7,8 @@ app=tk.Tk()#Everything is call inside the tk
 # print(dir(tk))
 app.title("Scientific Calculator")
 app.geometry("400x400")
+
+#Entry widget for display
 result=tk.Entry(width=30)
 # it helps below code width is optional case to increase the len 
 # result.pack() to create null from
@@ -47,7 +49,7 @@ def show_ans():
     last_ans = str(total) #save here
     
     result.delete(0, tk.END)
-    result.insert(0, str(current) + str(last_ans)),last_ans
+    result.insert(0, str(current) + str(last_ans))
     
 zero=tk.Button(app,text="0", padx=9, pady=9,command=lambda:take_input("0"))
 #Button(first argument(Master ie app) and second argument is (Text="0")) and padx increase the size of zero botton
@@ -69,7 +71,7 @@ minus=tk.Button(app,text="-",padx=9, pady=9,command=lambda:take_input("-"))
 multiply=tk.Button(app,text="*",padx=9, pady=9,command=lambda:take_input("*"))
 divide=tk.Button(app,text="/",padx=9, pady=9,command=lambda:take_input("/"))
 dot=tk.Button(app,text=".",padx=9, pady=9,command=lambda:take_input("."))
-ans=tk.Button(app,text="Ans",padx=9, pady=9,command=show_ans())
+ans=tk.Button(app,text="Ans",padx=9, pady=9,command=show_ans)
 equalsto=tk.Button(app,text="=",padx=9, pady=9,command=equal_value)
 power=tk.Button(app,text="x10^",padx=9, pady=9,command=lambda: take_input("**"))
 
